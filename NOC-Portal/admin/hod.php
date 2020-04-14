@@ -7,14 +7,17 @@
 
 	// Include Login Parse File
     include('../partials/parseHOD.php'); 
+
+	include('session-restrict-admin.php');
+
     
     // redirect user to login page if they're not logged in
-	if (empty($_SESSION['id'] || isCookieValid($db))) {
-		if($_SESSION['role'] === '2'){
-			header('location: ../login.php');
-			die;
-		}
-	}
+	// if (empty($_SESSION['id'] || isCookieValid($db))) {
+	// 	if($_SESSION['role'] === '2'){
+	// 		header('location: ../login.php');
+	// 		die;
+	// 	}
+	// }
 
 	guard();
 

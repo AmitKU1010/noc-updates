@@ -6,15 +6,20 @@
 	$keywords = '';
 
 	// Include ParseProfle page
-	include_once('../partials/parseProfile.php');
+	include_once('../partials/parseProfile.php'); 
 
+	include('session-restrict-emplooyee.php');
+	
+ 
 	// redirect user to login page if they're not logged in
-	if (empty($_SESSION['id'] || isCookieValid($db))) {
-		if($_SESSION['role'] === '0'){
-			header('location: ../login.php');
-			die;
-		}
-	}
+	// if (empty($_SESSION['id'] || isCookieValid($db))) {
+	// 	if($_SESSION['role'] === '0'){
+	// 		header('location: ../login.php');
+	// 		die;
+	// 	}
+	// }
+
+
 
 	guard();
 

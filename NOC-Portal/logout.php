@@ -5,7 +5,7 @@
     
     // Include Utilities File
 	include_once('resource/utilities.php');
-
+ 
     signout();
 
-?>
+?> 

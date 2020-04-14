@@ -2,7 +2,7 @@
 
 	$url = "http://localhost/noc-portal/NOC-Portal/";
 	$year = date('n') > 6 ? date('Y').'-'.(date('Y') + 1) : (date('Y') - 1).'-'.date('Y');
-
+ 
 ?>
 
 <!doctype html>

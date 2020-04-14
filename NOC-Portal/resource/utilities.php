@@ -320,7 +320,7 @@
 
         session_destroy();
         session_regenerate_id(true);
-        header('Location: http://localhost/MIXblack/AAI%20Projects/Final%20Projects/NOC%20Portal/login.php');
+        header('Location: http://localhost/noc-portal/NOC-Portal/login.php');
 
     }
 

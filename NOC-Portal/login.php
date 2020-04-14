@@ -7,7 +7,7 @@
 
 	// Include Login Parse File
 	include('partials/parseLogin.php'); 
-
+   
 	// Include Header File
 	include('include/header.php'); 
 

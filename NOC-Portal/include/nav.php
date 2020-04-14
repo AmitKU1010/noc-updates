@@ -32,7 +32,7 @@
                             <a class="dropdown-item" href="<?php echo $url; ?>members.php">
                                 <i class="dropdown-icon icon icon-people"></i> All Members
                             </a>
-
+   
                             <a class="dropdown-item" href="<?php echo $url; ?>logout.php">
                                 <i class="dropdown-icon icon icon-power"></i> Log out
                             </a>

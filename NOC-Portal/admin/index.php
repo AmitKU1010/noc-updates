@@ -14,14 +14,9 @@
 	// Include Utilities File
 	include_once('../resource/utilities.php');
 
-	// redirect user to login page if they're not logged in
-	if (empty($_SESSION['id'] || isCookieValid($db))) {
-		if($_SESSION['role'] === '2'){
-			header('location: ../login.php');
-			die;
-		}
-	}
+	include('session-restrict-admin.php');
 
+	 
 	guard();
 
 	// Include Header File

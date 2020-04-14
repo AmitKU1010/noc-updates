@@ -1,0 +1,327 @@
+ /* Including one css file into other  */
+ @import "variables.css"; 
+
+/* =================================================== */
+
+/* Utilities */
+.none-list {
+    line-height: 2 !important;
+}
+
+.testimonial_box {
+    min-height: 300px !important;
+    max-height: 300px !important;
+}
+
+.login-box a {
+    min-height: 150px !important;
+}
+
+.courses_box {
+    height: 200px !important;
+    /* text-align: center !important; */
+}
+
+.m1 {
+    margin-top: -20px !important;
+}
+
+.light-bg {
+    background-color: var(--bg-color) !important;
+    color: var(--dark) !important;  
+}
+
+.primary-bg {
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;  
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.faq-title {
+    font-size: 15px !important;
+}
+
+.none-list {
+    list-style-type: none !important;
+}
+
+.none-list li {
+    margin-left: 30px;
+}
+
+/* Top Menu */
+.btn-brochure {
+    color: var(--special) !important;
+    border: 1px solid var(--special);
+    padding: 6px 20px !important;
+}
+
+.btn-brochure:hover {
+    border: 1px solid var(--special);
+}
+
+.btn-brochure i {
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+}
+
+/* Social Icons */
+.facebook,
+.twitter,
+.linkedin,
+.instagram,
+.pinterest,
+.tumblr {
+    color: var(--dark);
+}
+
+.facebook:hover {
+    color: #3b5998 !important;
+}
+
+.twitter:hover {
+    color: #00acee !important;
+}
+
+.linkedin:hover {
+    color: #0e76a8 !important;
+}
+
+.instagram:hover {
+    color: rgba(228, 64, 95) !important;
+}
+
+.pinterest:hover {
+    color: #c8232c !important;
+}
+
+.tumblr:hover {
+    color: #34526f !important;
+}
+
+/* Bottom Menu */
+.brand-logo img,
+.footer-brand-logo img {
+    width: 10% !important;
+    height: 50% !important;
+}
+
+/* Flash SMS */
+.news_ticker,
+.news_ticker a {
+    color: var(--secondary) !important;
+}
+
+/* Placement Section */
+.placement-box {
+    /* border-radius: 80%; */
+    width: 80px;
+    height: 80px;
+}
+
+.dark-bg {
+    background-color: var(--bg-color) !important; 
+    color: var(--dark) !important; 
+}
+
+.mix_p_1 {
+    padding: 2rem !important;
+}
+
+.mix_p-2 {
+    padding: 4rem !important;
+}
+
+.mix_p_3 {
+    padding: 1rem !important;
+}
+
+.mix_p_4 {
+    padding: 5rem !important;
+}
+
+.company {
+    overflow: hidden !important;
+}
+
+/* Footer */
+.footer-text a {
+    color: var(--dark) !important;
+}
+
+
+/* 
+.footer-text a:hover {
+    color: var(--secondary) !important;
+} */
+/* Custom */
+.flash-text,
+.flash-text a {
+    color: var(--secondary) !important;
+}
+
+.why-box {
+    border: 1px solid #c4c4c4 !important;
+}
+
+.why-box i{
+    color: #ffbc09 !important;
+}
+
+.background-bg {
+    background-color: #00acee !important;
+    /* border-radius: 20%; */
+}
+
+.principle-wrapper {
+    background-color: #fff !important;
+    border-radius: 5%;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.round-image {
+    border-radius: 10.25rem!important;
+}
+
+/* .principle-trainer {
+    margin-bottom: -150px !important;
+    margin-top: -150px !important;
+    
+} */
+
+.testi_desc {
+    padding-bottom: -100px !important;
+}
+
+
+.trainer-p {
+    color: #fff !important;
+}
+
+.principle_trainer img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% !important;
+    padding: 10px;
+}
+
+.course_img img {
+    width: 900px;
+    height: 500px;
+}
+
+.affilation-card {
+    height: 150px !important;
+}
+
+.service-card {
+    min-height: 220px !important;
+}
+
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+
+/* ========================== Footer Form Popup ========================== */
+.footer-sidebar-outer {
+	position: fixed;
+	bottom:0;
+	z-index:9999;
+	width: 275px;
+	left: 75px;
+	/*background: #3778B0;*/
+}
+
+.sidebar-form input::placeholder,
+.sidebar-form textarea::placeholder {
+    color: #fff !important;
+  }
+
+#book {
+    display: none;
+    background: rgba(55, 120, 176, 0.8);
+    padding: 10px 15px;
+}
+  
+.footer-left-sidebar {
+      color: #fff;
+      font-size: 17px;
+}
+
+.footer-collapse-btn-top-outer {
+      padding: 10px 10px;
+      cursor: pointer;
+      background: #3778B0;
+}
+
+.drop-msg-icon a i {
+      color: #fff;
+}
+
+.sidebar-form .form-group:last-child {
+      margin: 0px;
+}
+
+.sidebar-form .form-control {
+    background: transparent !important;
+    text-align: left;
+}
+
+.sidebar-form .form-control {
+    color: #fff !important;
+    height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sidebar-form textarea.form-control {
+    height: auto;
+}
+
+.sidebar-btn {
+    background: #3778B0;
+}
+
+.sidebar-btn:hover {
+    background: #4f9fe4;
+    color: #fff;
+}
+
+.sidebar-btn:focus {
+    background: #4f9fe4;
+    color: #fff;
+}
+
+.footer-collapse-btn-top-outer.active .fa-caret-down:before {
+    content: "";
+}
+
+.more-btn i {
+	background: url("../images/icons/message.png") no-repeat center center;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-collapse-btn-top-outer.active  .more-btn i {
+	background: url("../images/icons/icon-close.png") no-repeat center center;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+  

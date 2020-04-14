@@ -1,0 +1,17 @@
+/* CSS Variables */
+
+:root {
+
+    /* Core Color */
+    --bg-color: #EFEFEF;
+    --primary: #03a5b0;
+    --secondary: #FFF;
+    --text: #c4c4c4;
+    --text-one: #f2f2f2;
+    --dark: #292B2C;
+    --secondary-text: #888888;
+    --btn-color: #DDD;
+    --special: #FF3B3F;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}

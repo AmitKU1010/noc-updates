@@ -106,6 +106,8 @@
                         // Check if one new row was created
                         if ($stmt->rowCount() == 1) {
 
+                           $rq_id=$db->lastInsertId();
+
                             // Get all hod's Id
                             $ids_array = array();
                             $query = "SELECT * FROM users WHERE role = :role";
@@ -134,7 +136,7 @@
                                 $stmt3->execute(array(
                                     ':hod_id' => $total_price,
                                     ':status'   => 'Pending',
-                                    ':req_id'   => $user_id
+                                    ':req_id'   => $rq_id
                                 ));
 
                             }

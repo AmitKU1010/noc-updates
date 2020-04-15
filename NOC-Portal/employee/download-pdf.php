@@ -15,7 +15,8 @@
 
     include('../include/seven/sev/mpdf.php');
 
-	include('session-restrict-admin.php');
+    include('session-restrict-emplooyee.php');
+
 
     
 
@@ -149,7 +150,7 @@
 
 
 	//save the file put which location you need folder/filname
-	$mpdf->Output("mixblack.pdf", 'F');
+	$mpdf->Output("../PDF/mixblack-employee.pdf", 'F');
 
 
 	//out put in browser below output function

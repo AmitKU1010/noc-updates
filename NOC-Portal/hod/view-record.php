@@ -1,5 +1,5 @@
 <?php 
-
+ 
     $page = 'view-record.php';
     $title = 'View Record | NOC Portal';
     $description = 'Clearance Certificate Portal - NOC App';

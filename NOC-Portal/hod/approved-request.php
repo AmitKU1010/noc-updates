@@ -1,5 +1,5 @@
 <?php 
-
+ 
     $page = 'approved-request.php';
     $title = 'Approved Request | NOC Portal';
     $description = 'Clearance Certificate Portal - NOC App';
@@ -7,7 +7,7 @@
 
 	// Include ParseProfle page
 	include_once('../partials/parseProfile.php');
-
+ 
 	include('session-restrict-hod.php');
 
  
@@ -25,7 +25,7 @@
 	include('../include/header.php'); 
 
 ?>
-
+ 
 		<div class="page">
 			<div class="page-main">
 				
@@ -63,7 +63,7 @@
 
 											// Create SQL SELECT Statement
 											$sql = "SELECT * FROM tracker INNER JOIN request on tracker.req_id = request.req_id WHERE tracker.hod_id = $user_id AND tracker.status = 'Approved'";
-
+											
 											// Use PDO Prepared to sanitize data
 											$stmt = $db->prepare($sql);
 
@@ -110,8 +110,8 @@
 																	<i class="fa fa-eye" aria-hidden="true"></i>
 																</a>
 
-																<a href="#" class="btn btn-sm btn-success" title="Download">
-																	<i class="fa fa-download" aria-hidden="true"></i>
+																<a href="make-pdf-hod.php?id=<?php echo $row['tr_id']; ?>" class="btn btn-success btn-sm" title="Download">
+																	<i class="fa fa-download"  target="_blank" aria-hidden="true"></i>
 																</a>
 															</td>
 														</tr>

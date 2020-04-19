@@ -15,7 +15,7 @@
 	// {
     //     header('location: /noc-portal/NOC-Portal/admin/index.php');
 	// }
-
+ 
 ?>
 		<!--Page-->
 		<div class="page mix-login-bg">
